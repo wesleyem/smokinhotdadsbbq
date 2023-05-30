@@ -41,7 +41,9 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#specialties') Specialties
                         li.nav-item
-                            a.nav-link(href='#competitions') Competitions
+                            a.nav-link(href='#upcoming') Upcoming
+                        li.nav-item
+                            a.nav-link(href='#portfolio') Portfolio
                         li.nav-item
                             a.nav-link(href='#contact') Become a Sponsor
 
@@ -114,26 +116,38 @@ html(lang='en')
                             h3.h4.mb-2 Cheesy Delight
                             p.text-muted.mb-0 Dive into Creamy Bliss with Our Team's Irresistible Mac and Cheese, a Perfectly Melty and Comforting Culinary Escape!
 
-        // Competitions
-        #competitions
+        // upcoming events
+        section#upcoming.page-section
+            .container.px-4.px-lg-5
+                h2.text-center.mt-0 Upcoming Events
+                hr.divider
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-lg-6.text-center
+                        .mt-5
+                            .mb-2
+                            h3.h4.mb-2 4th Annual Slanted Field of Dreams Invitational Rib Cook-off
+                            p.text-muted.mb-0 June 10th, 2023 | Penryn, CA
+
+        // Portfolio
+        #portfolio
             .container-fluid.p-0
                 .row.g-0
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/brisket-1.png', title='4th Annual Slanted Field of Dreams Invitational Rib Cook-off')
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/brisket-1.png', title='Battle of the BBQs 2019')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/brisket-1.png', alt='...')
-                            .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | June 10th, 2023 | Penryn, CA
-                                .project-name
-                                    | 4th Annual Slanted Field of Dreams Invitational Rib Cook-off
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/brisket-2.png', title='Battle of the BBQs 2019')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/brisket-2.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
                                     | 1st Place
                                 .project-name
                                     | Battle of the BBQs 2019
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/brisket-2.png', title="Who Loves Brisket?")
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/brisket-2.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Who Loves Brisket?
+                                .project-name
+                                    | That's Right, Everyone!
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/ribs-1.png', title='Backyard with friends')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/ribs-1.png', alt='...')
