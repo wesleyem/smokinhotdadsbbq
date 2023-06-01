@@ -2,6 +2,15 @@
 // Scripts
 //
 
+// Google Analytics
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-JZ34K3L42Q");
+
 window.addEventListener("DOMContentLoaded", (event) => {
     // Navbar shrink function
     var navbarShrink = function () {
